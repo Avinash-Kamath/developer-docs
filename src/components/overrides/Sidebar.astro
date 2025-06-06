@@ -1,7 +1,16 @@
 ---
 // src/components/Sidebar.astro
 import Default from "@astrojs/starlight/components/Sidebar.astro";
+import TopicsDropdown from "starlight-sidebar-topics-dropdown/TopicsDropdown.astro";
 ---
 
-{/* Render the default sidebar without the topics list */}
+<style>
+  :global(.starlight-sidebar-topics-dropdown-menu a:nth-last-child(-n+2)) {
+    display: none !important;
+  }
+</style>
+
+{/* Render the topics dropdown menu. */}
+<TopicsDropdown />
+{/* Render the default sidebar. */}
 <Default><slot /></Default>
