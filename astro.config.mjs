@@ -32,6 +32,7 @@ export default defineConfig({
         // SocialIcons: './src/components/overrides/SocialIcons.astro',
         // Sidebar: './src/components/overrides/Sidebar.astro',
         Head: './src/components/overrides/Head.astro',
+        Pagination: './src/components/overrides/Pagination.astro',
       },
       logo: {
         dark: '/src/assets/images/logos/scalekit-logo-green-dark.svg',
