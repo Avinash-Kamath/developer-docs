@@ -1,6 +1,6 @@
 :root {
-  --scalar-font-body: "Inter Variable", sans-serif;
-  --scalar-font-heading: "Inter Variable", sans-serif;
+  --scalar-font-body: sans-serif;
+  --scalar-font-heading: sans-serif;
   --scalar-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --scalar-custom-header-height: 50px;

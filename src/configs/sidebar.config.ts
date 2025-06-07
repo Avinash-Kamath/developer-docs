@@ -150,15 +150,6 @@ export const sidebar = [
           "guides/m2m/service-principals",
           "guides/m2m/user-delegated-access",
           "guides/m2m/microservices",
-          "guides/m2m/token-verification",
-        ],
-      },
-      {
-        label: "MCP Auth",
-        items: [
-          "guides/mcp/overview",
-          "guides/mcp/oauth",
-          //"guides/mcp/additional-reading",
         ],
       },
       {

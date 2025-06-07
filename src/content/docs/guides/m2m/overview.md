@@ -211,7 +211,6 @@ Most platforms start with one pattern and expand based on customer needs:
 
 ### Step 2: Understand the Technical Implementation
 
-- [Token Verification](/guides/m2m/token-verification/) - Validate tokens in your APIs
 - [Scopes & Permissions](/guides/m2m/scopes-permissions/) - Implement authorization
 
 ### Step 3: Deploy with Confidence
@@ -253,7 +252,6 @@ Most platforms start with one pattern and expand based on customer needs:
 
 1. **[Identify your use case](/guides/m2m/use-cases/)** - Choose the right authentication pattern
 2. **[Set up your first integration](/guides/m2m/service-principals/)** - Most teams start here
-3. **[Secure your APIs](/guides/m2m/token-verification/)** - Implement proper token validation
 
 **Need help choosing?** Most B2B SaaS platforms start with **Service Principals** to enable customer automation, then expand to **Third-Party Apps** for ecosystem growth and **Microservices** for internal security.
 

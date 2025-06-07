@@ -1,8 +1,8 @@
 ---
-title: Third-Party Apps (User-delegated Access)
+title: User-delegated Access
 sidebar:
-  label: Third-Party Apps
-prev: false
+  label: User-delegated Access
+
 ---
 
 **Enable external developers to build integrations that access your APIs on behalf of users**
@@ -1215,7 +1215,6 @@ const monitorThirdPartyUsage = (req, res, next) => {
 **What's Next:**
 
 1. **[Add Microservices Authentication](/guides/m2m/microservices/)** - Secure your internal service communication
-2. **[Advanced Token Validation](/guides/m2m/token-verification/)** - Implement robust validation patterns
 
 **For Your Developer Ecosystem:**
 

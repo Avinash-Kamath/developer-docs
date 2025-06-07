@@ -702,9 +702,8 @@ const debugAuth = async () => {
 
 **What's Next:**
 
-1. **[Token Verification](/guides/m2m/token-verification/)** - Advanced validation patterns
-2. **[Service Principals](/guides/m2m/service-principals/)** - Enable customer API access
-3. **[Third-Party Apps](/guides/m2m/user-delegated-access/)** - Build developer ecosystem
+1. **[Service Principals](/guides/m2m/service-principals/)** - Enable customer API access
+2. **[Third-Party Apps](/guides/m2m/user-delegated-access/)** - Build developer ecosystem
 
 **For Your Infrastructure:**
 
