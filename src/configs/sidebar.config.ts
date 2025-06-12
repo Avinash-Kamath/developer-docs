@@ -225,29 +225,13 @@ export const sidebar = [
         ],
       },
       {
-        label: "Development Tools",
-        items: [
-          {
-            label: "Postman collections",
-            link: "https://github.com/scalekit-developers/api-collections",
-            attrs: { target: "_blank", rel: "noopener" },
-          },
-          {
-            label: "Code examples",
-            link: "https://github.com/scalekit-developers/gists",
-            attrs: { target: "_blank", rel: "noopener" },
-          },
-        ],
-      },
-      {
         label: "Support",
         items: [
           "support/contact-us",
           {
             label: "Release notes",
             link: "https://www.scalekit.com/product-updates",
-            label: "Release Notes",
-            link: "https://www.scalekit.com/product-updates",
+            attrs: { target: "_blank", rel: "noopener" },
           },
           {
             label: "Status",
