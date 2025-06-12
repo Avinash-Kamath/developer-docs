@@ -169,60 +169,74 @@ export const sidebar = [
     icon: "seti:powershell",
     items: [
       {
-        label: "Developer kit",
+        label: "SDKs",
         items: [
           {
-            label: "API reference",
+            label: "Node.js SDK",
+            link: "https://github.com/scalekit-inc/scalekit-sdk-node",
+            attrs: { target: "_blank", rel: "noopener" },
+          },
+          {
+            label: "Python SDK",
+            link: "https://github.com/scalekit-inc/scalekit-sdk-python",
+            attrs: { target: "_blank", rel: "noopener" },
+          },
+          {
+            label: "Go SDK",
+            link: "https://github.com/scalekit-inc/scalekit-sdk-go",
+            attrs: { target: "_blank", rel: "noopener" },
+          },
+          {
+            label: "Java SDK",
+            link: "https://github.com/scalekit-inc/scalekit-sdk-java",
+            attrs: { target: "_blank", rel: "noopener" },
+          },
+        ],
+      },
+      {
+        label: "Webhooks",
+        autogenerate: { directory: "reference/webhooks" },
+      },
+      {
+        label: "Reference",
+        items: [
+          {
+            label: "REST API reference",
             link: "/apis",
             attrs: { target: "_blank", rel: "noopener" },
-            badge: { text: "REST ↗", variant: "note" },
           },
+          "reference/admin-portal/ui-events",
+          "reference/glossary",
+        ],
+      },
+      {
+        label: "Development Tools",
+        items: [
           {
             label: "Postman collections",
             link: "https://github.com/scalekit-developers/api-collections",
             attrs: { target: "_blank", rel: "noopener" },
           },
           {
-            label: "Code gists",
+            label: "Code examples",
             link: "https://github.com/scalekit-developers/gists",
             attrs: { target: "_blank", rel: "noopener" },
-          },
-          {
-            label: "SDKs",
-            items: [
-              {
-                label: "Nodejs",
-                link: "https://github.com/scalekit-inc/scalekit-sdk-node",
-                attrs: { target: "_blank", rel: "noopener" },
-              },
-              {
-                label: "Python",
-                link: "https://github.com/scalekit-inc/scalekit-sdk-python",
-                attrs: { target: "_blank", rel: "noopener" },
-              },
-              {
-                label: "Go",
-                link: "https://github.com/scalekit-inc/scalekit-sdk-go",
-                attrs: { target: "_blank", rel: "noopener" },
-              },
-              {
-                label: "Java",
-                link: "https://github.com/scalekit-inc/scalekit-sdk-java",
-                attrs: { target: "_blank", rel: "noopener" },
-              },
-            ],
           },
         ],
       },
       {
-        label: "Reference",
+        label: "Development Tools",
         items: [
-          "reference/admin-portal/ui-events",
           {
-            label: "Webhooks",
-            autogenerate: { directory: "reference/webhooks" },
+            label: "Postman collections",
+            link: "https://github.com/scalekit-developers/api-collections",
+            attrs: { target: "_blank", rel: "noopener" },
           },
-          "reference/glossary",
+          {
+            label: "Code examples",
+            link: "https://github.com/scalekit-developers/gists",
+            attrs: { target: "_blank", rel: "noopener" },
+          },
         ],
       },
       {
@@ -231,6 +245,8 @@ export const sidebar = [
           "support/contact-us",
           {
             label: "Release notes",
+            link: "https://www.scalekit.com/product-updates",
+            label: "Release Notes",
             link: "https://www.scalekit.com/product-updates",
           },
           {
@@ -273,5 +289,5 @@ export const topics = {
     "/guides/external-ids-and-metadata",
     "/guides/mcp/additional-reading",
   ],
-  "dev-kit": ["/guides/unlisted/passwordless-as-service"],
+  "dev-kit": ["/dev-kit/**/*", "/guides/unlisted/passwordless-as-service"], // Include all dev-kit pages
 };

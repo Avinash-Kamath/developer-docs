@@ -128,3 +128,8 @@ h5 {
 #starlight__sidebar details details summary svg {
   display: none;
 }
+
+/* Hide the last two items in the topics list */
+.starlight-sidebar-topics li:nth-last-child(-n + 2) {
+  display: none;
+}
